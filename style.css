@@ -1,0 +1,13 @@
+html{
+    scroll-snap-type: x mandatory;
+}
+@supports(display: flex){
+}
+:placeholder-shown{
+    border: 3px solid red;
+    scroll-snap-align: start;
+}
+ul li{
+    list-style-type: "AhMII. ";
+    scroll-behavior: smooth;
+}
